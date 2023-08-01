@@ -11,3 +11,7 @@ echo "----------------"
 
 echo "# vals eval -f templates/argocd-infra-git-repo.yaml result"
 vals eval -f templates/argocd-infra-git-repo.yaml
+
+echo "----------------"
+echo "# vals eval -f rendered.yaml result"
+vals eval -f rendered.yaml
